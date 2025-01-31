@@ -8,6 +8,10 @@ requirements = []
 path = "contracts/zen-nft.clar"
 depends_on = []
 
+[contracts.zen-session]
+path = "contracts/zen-session.clar"
+depends_on = []
+
 [contracts.zen-token]
 path = "contracts/zen-token.clar"
 depends_on = []
