@@ -16,7 +16,12 @@ A blockchain-based meditative tool for syncing digital assets and tracking mindf
 ## Contracts
 - `zen-token.clar`: Core token for rewards
 - `zen-nft.clar`: NFT contract for achievements
-- `zen-session.clar`: Session tracking logic
+- `zen-session.clar`: Session tracking logic with duration validation (5-180 minutes)
 
 ## Testing
 Run tests with: `clarinet test`
+
+## Session Guidelines
+- Minimum session length: 5 minutes
+- Maximum session length: 180 minutes (3 hours)
+- Earn 1 token per minute of meditation
